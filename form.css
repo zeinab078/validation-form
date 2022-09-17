@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 95vw;
+    background-color:#f6f6f6;
+    color: #555;
+}
+.container{
+    padding: 60px 35px 35px 35px;
+    width: 300px;
+    height: 450px;
+    background-color:#ecf0f3;
+    color: rgb(66, 66, 66);
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+    border-radius: 40px;
+}
+h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+}
+form input{
+    border:none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background:none ;
+}
+.username-input,.password-input{
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 10px #cbced1 ,
+    -8px -8px 8px #ffffff;
+    border-radius: 25px;
+    
+}
+.sing-in{
+    border: none;
+    padding: 10px 30px;
+    margin:  40px 65px;
+    border-radius: 20px;
+    background-color: rgba(26, 141, 248, 0.863);
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #fff;
+}
+.sing-in:hover{
+    background-color: #50e5b9;
+}
+.link{
+    padding-top: 5px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
+.password-msg ,.username-msg{
+    color: rgba(235, 32, 32, 0.705);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.singin-status{
+    
+    margin: 20px 50px ;
+    text-align: center;
+    color: rgb(12, 243, 62);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
